@@ -1,0 +1,9 @@
+<h1>Advices#show</h1>
+<h1>Month <%=  @advice.month%></h1>
+<table >
+<% @advice_group.each do |advice|%>
+<tr>
+ <td><%= advice%> <br></td>
+ </tr>
+<% end %>
+</table>
